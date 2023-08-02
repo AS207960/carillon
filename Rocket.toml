@@ -1,0 +1,8 @@
+[default]
+expiry_range_start = "2023-01-01T00:00:00Z"
+expiry_range_end = "2024-01-01T00:00:00Z"
+certs_dir = "./certs"
+log_private_key = "./log.key"
+log_public_key = "./log.pub"
+storage_dir = './data'
+database_url= 'postgres://q@localhost/carillon'

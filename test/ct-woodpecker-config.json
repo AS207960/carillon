@@ -1,0 +1,29 @@
+{
+  "metricsAddr": ":1971",
+  "dbURI": "woodpecker@/woodpecker",
+  "dbPasswordFile": "./db_password",
+  "fetchConfig": {
+    "interval": "20s",
+    "timeout": "100s"
+  },
+  "submitConfig": {
+    "interval": "10s",
+    "timeout": "500s",
+    "certIssuerKeyPath": "./test-ca.key",
+    "certIssuerPath": "./test-ca.crt",
+    "baseDomain": ".example.com"
+  },
+  "inclusionConfig": {
+    "interval": "5s",
+    "maxGetEntries": 3000
+  },
+  "logs": [
+    {
+      "uri": "http://localhost:8000/",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEtW9l4lJYdyrmOmndpkEdtZL0doIVoTaUGi3vtV5eCNvThzp951xSxCk5k2Q+4uusVJ5RKFWaoj5j+xzpiLy+IQ==",
+      "minEntry": 1,
+      "submitPreCert": true,
+      "submitCert": true
+    }
+  ]
+}

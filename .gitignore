@@ -1,0 +1,8 @@
+/target
+.env
+test/db_password
+test/test-ca.crt
+test/test-ca.key
+log.key
+log.pub
+data/
